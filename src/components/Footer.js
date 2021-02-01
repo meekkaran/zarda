@@ -1,10 +1,11 @@
 import React from 'react';
+import './Footer.css';
 
 function Footer() {
     return (
         <div className="footer">
             <section className="subscribe">
-                <p className="subscribeheader">
+                <p className="subscribe-header">
                     Join the swahili food community and get amazing offers and discounts
                 </p>
                 <p className="subscribetext">
@@ -17,13 +18,13 @@ function Footer() {
                         name="email"
                         placeholder="Your email"
                         className="footer-input" />
-                      <button>Subscribe</button>
+                      <button className="btns">Subscribe</button>
                     </form>   
                 </div>
             </section>
             <div className="links">
                 <div className="linkwrap">
-                    <div className="link items">
+                    <div className="link-items">
                         <h2>About us</h2>
                         <p>How it works</p>
                         <p>Testimonials</p>
@@ -31,7 +32,7 @@ function Footer() {
                         <p>Investors</p>
                         <p>Terms of service</p>
                     </div>
-                    <div className="link items">
+                    <div className="link-items">
                         <h2>About us</h2>
                         <p>How it works</p>
                         <p>Testimonials</p>
@@ -41,7 +42,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="linkwrap">
-                    <div className="link items">
+                    <div className="link-items">
                         <h2>Videos</h2>
                         <p>How it works</p>
                         <p>Testimonials</p>
@@ -49,7 +50,7 @@ function Footer() {
                         <p>Investors</p>
                         <p>Terms of service</p>
                     </div>
-                    <div className="link items">
+                    <div className="link-items">
                         <h2>Social media</h2>
                         <p>Instagram</p>
                         <p>Facebook</p>
@@ -59,13 +60,17 @@ function Footer() {
                 </div>
             </div>
             <section className="socialmedia">
-                <div className="icons">
-                <i className="fab fa-facebook-instagram"></i>
-                <i className="fab fa-instagram"></i>
-                <i className="fab fa-youtube"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="fab fa-linkedin"></i>
+                <div className="socialmediawrap">
+                  <small className='website-rights'>ZARDA @ 2022</small>
+                   <div className="icons">
+                     <i className="fab fa-facebook-instagram"></i>
+                     <i className="fab fa-instagram"></i>
+                     <i className="fab fa-youtube"></i>
+                     <i className="fab fa-twitter"></i>
+                     <i className="fab fa-linkedin"></i>
+                  </div>
                 </div>
+            
             </section>
         </div>
     )
