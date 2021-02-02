@@ -1,10 +1,12 @@
 .footer{
-    background-color: #242424;
-    padding:4rem 0 2rem 0;
+    margin-top: 100px;
+    background-color:#b94e48;
+    padding:6rem 0 2rem 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .subscribe{
     display:flex;

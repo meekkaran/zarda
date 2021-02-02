@@ -34,21 +34,18 @@ function Footer() {
                     </div>
                     <div className="link-items">
                         <h2>About us</h2>
-                        <p>How it works</p>
+                        <p>How we work</p>
                         <p>Testimonials</p>
                         <p>Careers</p>
-                        <p>Investors</p>
-                        <p>Terms of service</p>
+
                     </div>
                 </div>
                 <div className="linkwrap">
                     <div className="link-items">
                         <h2>Videos</h2>
-                        <p>How it works</p>
-                        <p>Testimonials</p>
+                        <p>Our recipes</p>
+                        <p>Tutorials</p>
                         <p>Careers</p>
-                        <p>Investors</p>
-                        <p>Terms of service</p>
                     </div>
                     <div className="link-items">
                         <h2>Social media</h2>
